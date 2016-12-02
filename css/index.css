@@ -1,0 +1,26 @@
+table{
+    position: center;
+}
+.div{
+	margin: 40px 10px 10px 10px;
+}
+#proposicion1{
+position: center;
+margin-top: 20px;
+margin-right: 60px;
+margin-left: 60px;
+}
+#table_options{
+	float: right;
+	display: none;
+}
+#table_proposicion{
+	float: left;
+}
+.definicion{
+    margin:90px 50px 20px 50px;
+}
+#presentacion{
+    width: 80%;
+    margin: 5px 10% 5px 10%;
+}
