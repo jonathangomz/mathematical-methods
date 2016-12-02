@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="javascript/truthtable.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<meta charset="utf-8">
+
+	<title>Tabla de la Verdad</title>
+
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <a href="simpson.html">
+            <button type="button" class="btn btn-primary btn-previous">Previous</button>
+        </a>
+        <div class="title">
+            <center>
+                <h3 class="lead" style="color:white">TABLAS DE VERDAD</h3>
+            </center>
+        </div>
+        <a href="simpson.html">
+            <button type="button" class="btn btn-primary btn-next">Next</button>
+        </a>
+    </nav>
+
+    <div class="div definicion">
+        <h3>Definición:</h3>
+        <p>
+            Una tabla de verdad, o tabla de valores de verdad, es una tabla que muestra el valor de verdad de una proposición compuesta, para cada combinación de valores de verdad que se pueda asignar a sus componentes. Fue desarrollada por Charles Sanders Peirce por los años 1880, pero el formato más popular es el que introdujo Ludwig Wittgenstein en su Tractatus logico-philosophicus, publicado en 1921.
+        </p>
+        <p>
+            tabla de valores de verdad, es una tabla que despliega el valor de verdad de una proposición compuesta, para cada combinación de valores de verdad que se pueda asignar a sus componentes.
+            <br>
+            Existen 5 tabla de la verdad o valores de a verdad las cuales son:
+            <ul>
+                <li>La tabla del " Y" o conjunción </li>
+                <li>La tabla del " O" o disyunción </li>
+                <li>La tabla del entonces o condicional</li>
+                <li>La tabla de la equivalencia o el bicondicional </li>
+                <li>La tabla de la negación </li>
+            </ul>
+            <br>
+            <strong>Tabla del la conjución</strong>
+            <br>
+            La conjunción es un operador que opera sobre dos valores de verdad, típicamente los valores de verdad de dos proposiciones, devolviendo el valor de verdad verdadero cuando ambas proposiciones son verdaderas, y falso en cualquier otro caso. Es decir es verdadera cuando ambas son verdaderas
+            <br>
+            La tabla de verdad de la conjunción es la siguiente:
+        </p>
+        <center><a href="images/or.png"><img alt="OR" src="images/or.png" style="width:90%"></a></center>
+        <br><br>
+        <p>
+            <strong>Tabla de la disyunción</strong>
+            <br>
+            La disyunción es un operador que opera sobre dos valores de verdad, típicamente los valores de verdad de dos proposiciones, devolviendo el valor de verdad verdadero cuando una de las proposiciones es verdadera, o cuando ambas lo son, y falso cuando ambas son falsas.
+            <br>
+            La tabla de verdad de la disyunción es la siguiente:
+        </p>
+        <center><a href="images/and.png"><img alt="AND" src="images/and.png" style="width:90%"></a></center>
+        <br><br>
+        <p>
+            <strong>Tabla del condicional</strong>
+            <br>
+            El condicional material es un operador que opera sobre dos valores de verdad, típicamente los valores de verdad de dos proposiciones, devolviendo el valor de verdad falso sólo cuando la primera proposición es verdadera y la segunda falsa, yverdadero en cualquier otro caso.
+            <br>
+            La tabla de verdad del condicional material es la siguiente:
+        </p>
+        <center><img src="https://upload.wikimedia.org/math/a/3/8/a38134510a60e301f9dce2b91dda0154.png"></center>
+        <br>
+        <p>
+            <strong>Tabla del bicondicional </strong>
+            <br>
+            El bicondicional o doble implicación es un operador que funciona sobre dos valores de verdad, típicamente los valores de verdad de dos proposiciones, devolviendo el valor de verdad verdadero cuando ambas proposiciones tienen el mismo valor de verdad, y falso cuando sus valores de verdad difieren.
+            <br>
+            La tabla de verdad del bicondicional es la siguiente:
+        </p>
+        <center><img src="http://1.bp.blogspot.com/_KXv4slVrTzg/SwuiARWWekI/AAAAAAAAAA0/mEMUkqoPuvY/s320/Bicondicional1.jpg"></center>
+        <p>
+            <strong>Tabla de la negación</strong>
+            <br>
+            La negación es un operador que opera. sobre un único valor de verdad, devolviendo el valor contradictorio de la proposición considerada.
+        </p>
+        <center><img src="http://3.bp.blogspot.com/_KXv4slVrTzg/SwuiVR3sHCI/AAAAAAAAAA8/S5MXGVQI1sU/s320/negacion.bmp"></center>
+    </div>
+
+    <div id="presentacion" class="alert alert-info" role="alert">
+    En esta página hemos logrado hacer que puedas probar hacer una tabla de verdad para que veas los resultados y puedas ver como funciona. Solo acepta OR (+, v) y AND (*, ^) pero puedes intentarlo con las variables que quieras, debajo te mostrarmos un ejemplo, eso si, bajo tu responsabilidad queda el como se verá la tabla si metes muchas variables.
+    </div>
+
+<div class="div">
+	<div id="proposicion1" class="alert alert-success" role="alert">
+		<label>Ingresa la proposición</label>
+		<p>Los símbolos para las proposiciones por ahora son: <strong>'^'</strong> y <strong>'v'</strong>, ó <strong>'+'</strong> y <strong>'*'</strong>. Aun no aceptamos negaciones.</p>
+        <p>Para que pueda hacer la tabla necesitará ingresar los parentesis debidos. Puede usar "( )", "{ }" e incluso "[ ]"</p>
+        <p><strong>Es obligatorio el uso de los parentesis</strong></p>
+        <br>
+		<input type="text" class="form-control" placeholder="Proposición" name="proposicion" id="proposicion">
+		<br>
+		<button class="btn btn-default" onclick="contarVar()">Enviar</button>
+	</div >
+	<br>
+	<table border="0" width="100%" cellpadding="5" cellspacing="5">
+		<tr>
+			<td width="5%">
+				<table class="table table-bordered" id="table_options"></table>
+			</td>
+			<td width="95%">
+				<table class="table table-bordered" id="table_proposicion"></table>
+			</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>
