@@ -8,6 +8,8 @@ function methods(clicked_id) {
     valMax = Number(valMax);
     partitions = Number(partitions);
 
+    alert(valMax);
+
     if(clicked_id == "simpson"){
         ans = simpson(valMin, valMax, partitions);
     }else if(clicked_id == "trapecios"){
