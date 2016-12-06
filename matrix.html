@@ -84,6 +84,17 @@ Donec metus lorem, lacinia id purus sit amet, tincidunt posuere nisl. Pellentesq
                 </table>
             </div>
         </div>
-        <button id="boton" type="button" class="btn btn-info">Pushale aquí para multiplicar las matrices</button>
+        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <h5 style="margin-left:10px;">The answer is:</h5>
+                <hr>
+                <div id="answer">
+                    <table id="answer1"></table>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button id="boton" type="button" class="btn btn-info" data-toggle="modal" data-target=".bs-example-modal-sm">Pushale aquí para multiplicar las matrices</button>
     </body>
 </html>

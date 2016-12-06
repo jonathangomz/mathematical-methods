@@ -33,8 +33,10 @@ tr, td, th{
     top: 60px;
     left: 50%;
     right: 50%;
-
 }
 #boton{
     margin: -45px 20% -60px 20%;
+}
+#answer{
+    margin: 0px 30% 10px 30%;
 }
