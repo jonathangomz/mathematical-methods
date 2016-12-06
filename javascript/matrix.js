@@ -1,7 +1,7 @@
 window.onload = function () {
 
-    var A = [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ];
-	var B = [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ];
+    var A = [ [ 3, 5, 11 ], [ 3, 10, 6 ], [ 7, 81, 19 ] ];
+	var B = [ [ 1, 9, 12 ], [ 42, 5, 6 ], [ 2, 8, 31 ] ];
     var C = [];
 
     document.getElementById('boton').onclick = function () {
