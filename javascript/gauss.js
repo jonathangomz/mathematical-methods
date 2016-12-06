@@ -24,12 +24,20 @@ window.onload = function () {
 
         for(var i= 0; i < b.length; i++){
             ans[i] = (b[i] / a[i][i]);
-            alert(ans[i]);
         }
 
     }
 
     function addHTML(){
+
+        var text = " ";
+        for(var i = 0; i < ans.length; i++){
+            text += "<center>x<sup>"+i+"</sup> = "+ans[i]+"           </center>";
+            alert(ans[i]);
+
+        }
+        document.getElementById('answer').innerHTML = text;
+
     }
 
 }
