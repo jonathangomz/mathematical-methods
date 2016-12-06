@@ -1,0 +1,42 @@
+.div{
+    margin: 100px 40px 40px 40px;
+}
+.alert{
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+.alert-success{
+    margin-top: 10px;
+    position: relative;
+    top: 10px;
+    bottom: 30px;
+    height: 130px;
+}
+table{
+    margin-top: 10px;
+}
+#table-left{
+    margin-left: 24%;
+    float: left;
+}
+#table-rigth{
+    margin-right: 34%;
+    float: right;
+}
+tr, td, th{
+    padding: 0px 10px;
+}
+#multi{
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    right: 50%;
+}
+#boton{
+    margin: -45px 20% -60px 20%;
+}
+#answer{
+    margin: 0px 30% 10px 30%;
+}
