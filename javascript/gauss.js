@@ -1,10 +1,11 @@
 window.onload = function () {
-
+    var ans = [];
     document.getElementById('resolver-gauss').onclick = function () {
         var a = [[2.0,3.0,1.0],  [3.0,-2.0,-4.0], [5.0,-1.0,-1.0]];
         var b = [1.0, -3.0, 4.0];
 
         gauss(a, b);
+        addHTML();
     }
 
     function gauss(a, b){
@@ -22,9 +23,13 @@ window.onload = function () {
         }
 
         for(var i= 0; i < b.length; i++){
-            alert(b[i] / a[i][i]);
+            ans[i] = (b[i] / a[i][i]);
+            alert(ans[i]);
         }
 
+    }
+
+    function addHTML(){
     }
 
 }
