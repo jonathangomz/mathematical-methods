@@ -1,3 +1,37 @@
 .div{
     margin: 100px 40px 40px 40px;
 }
+.alert{
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+.alert-info{
+    margin-top: 130px;
+    position: relative;
+    top: 10px;
+    bottom: 30px;
+}
+table{
+    margin-top: 10px;
+}
+#table-left{
+    margin-left: 28%;
+    float: left;
+}
+#table-rigth{
+    margin-right: 40%;
+    float: right;
+}
+tr, td, th{
+    padding: 0px 10px;
+}
+#multi{
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    right: 40px;
+
+}
