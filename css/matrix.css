@@ -27,6 +27,7 @@ table{
 }
 tr, td, th{
     padding: 0px 10px;
+    text-align: center;
 }
 #multi{
     position: absolute;
