@@ -3,16 +3,16 @@
 }
 .alert{
     margin-top: 10px;
-    position: absolute;
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
 }
-.alert-info{
-    margin-top: 130px;
+.alert-success{
+    margin-top: 10px;
     position: relative;
     top: 10px;
     bottom: 30px;
+    height: 150px;
 }
 table{
     margin-top: 10px;
@@ -34,4 +34,7 @@ tr, td, th{
     left: 50%;
     right: 40px;
 
+}
+#boton{
+    margin: -45px 20% -60px 20%;
 }
