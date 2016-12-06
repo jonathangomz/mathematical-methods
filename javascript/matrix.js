@@ -45,8 +45,7 @@ window.onload = function () {
             }
             text += "</tr>";
         }
-
-      alert(text);  document.getElementById('answer1').innerHTML = text;
+        document.getElementById('answer1').innerHTML = text;
     }
 
 }
