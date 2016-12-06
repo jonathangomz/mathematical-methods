@@ -33,7 +33,7 @@ window.onload = function () {
         var text = " ";
         for(var i = 0; i < ans.length; i++){
             text += "<center>x<sup>"+i+"</sup> = "+ans[i]+"           </center>";
-            alert(ans[i]);
+            alert("x"+i+" = "+ans[i]);
 
         }
         document.getElementById('answer').innerHTML = text;
