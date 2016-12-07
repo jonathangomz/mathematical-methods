@@ -10,7 +10,6 @@ window.onload = function () {
         table1 += gauss(table1, a, b);
         addHTML();
 
-
         document.getElementById('answer1').innerHTML = table1;
     }
 

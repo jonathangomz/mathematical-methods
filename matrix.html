@@ -36,11 +36,6 @@ Donec metus lorem, lacinia id purus sit amet, tincidunt posuere nisl. Pellentesq
             </p>
         </div>
 
-        <div class="alert alert-danger">
-
-            Por el momento no se permite el ingreso de los valores, tan pronto como se solucione se añadirá. <strong>Aceptamos aportes :)</strong>
-
-        </div>
         <div class="alert alert-success">
 
             Las matrices con las que se trabajará para la multiplicación serán las siguientes:
@@ -84,62 +79,58 @@ Donec metus lorem, lacinia id purus sit amet, tincidunt posuere nisl. Pellentesq
                 </table>
             </div>
         </div>
-        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-            <div class="modal-dialog modal-sm" role="document">
-            <div class="modal-content">
-              <h5 style="margin-left:10px;">The answer is:</h5>
-                <hr>
-                <div id="answer">
-                    <table id="answer1"></table>
-                </div>
-            </div>
-          </div>
-        </div>
+
         <div id="modal-input" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
           <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <h5 style="margin-left:10px;">Ingresa los valores de las matrices:</h5>
-                <hr>
+                <div>
                 <table id="table-left">
                     <tr>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="1-0-0" type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="1-0-1" type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="1-0-2" type="text" class="form-control" style="width:50px"></td>
                     </tr>
                     <tr>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="1-1-0" type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="1-1-1" type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="1-1-2" type="text" class="form-control" style="width:50px"></td>
                     </tr>
                     <tr>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="1-2-0" type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="1-2-1" type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="1-2-2" type="text" class="form-control" style="width:50px"></td>
                     </tr>
                 </table>
-            <p id="multi"><strong>X</strong></p>
+            <!--<p id="multi"><strong>X</strong></p>-->
                 <table id="table-rigth">
                     <tr>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="2-0-0" type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="2-0-1" type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="2-0-2" type="text" class="form-control" style="width:50px"></td>
                     </tr>
                     <tr>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="2-1-0" type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="2-1-1" type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="2-1-2" type="text" class="form-control" style="width:50px"></td>
                     </tr>
                     <tr>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
-                        <td><input type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="2-2-0" type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="2-2-1" type="text" class="form-control" style="width:50px"></td>
+                        <td><input id="2-2-2" type="text" class="form-control" style="width:50px"></td>
                     </tr>
                 </table>
+                    <button id="boton" type="button" class="btn btn-info">Multiplicar</button>
+                </div>
             </div>
           </div>
         </div>
         <!-- ARREGLAR MODAL A TODA COSTA-->
-        <button id="boton" type="button" class="btn btn-info" data-toggle="modal" data-target=".bs-example-modal-sm">Pushale aquí para multiplicar las matrices</button>
         <button id="btn-input" type="button" class="btn btn-info" data-toggle="modal" data-target=".bs-example-modal-lg">Pushale aquí para ingresar las matrices</button>
+        <div id="res" class="alert alert-success" style="display: none">
+            <div id="answer">
+                <table id="answer1"></table>
+            </div>
+        </div>
     </body>
 </html>
