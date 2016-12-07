@@ -14,3 +14,12 @@
     top: 10px;
     bottom: 30px;
 }
+#resolver-gauss{
+    display: inline;
+    float: left;
+
+}
+#mostrar{
+    display: inline;
+    float: right;
+}

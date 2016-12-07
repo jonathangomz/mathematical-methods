@@ -6,6 +6,7 @@ window.onload = function () {
 
         gauss(a, b);
         addHTML();
+        showMartix(a, b);
     }
 
     function gauss(a, b){
@@ -34,8 +35,6 @@ window.onload = function () {
         var text = " ";
         for(var i = 0; i < ans.length; i++){
             text += "<center>x<sup>"+i+"</sup> = "+ans[i]+"           </center>";
-            alert("x"+i+" = "+ans[i]);
-
         }
         document.getElementById('answer').innerHTML = text;
         text = "";
@@ -43,18 +42,23 @@ window.onload = function () {
     }
 
     function showMartix(a, b){
-        var text = "";
+        var table1 = "";
+        var table2 = "";
+
         for(var i = 0; i < a.length; i++){
             for(var o = 0; o < a.length; o++){
 
             }
         }
         for(var i = 0; i < b.length; i++){
-            text += "<tr>";
-            var j = respuestas[i];
-            text += "<td><center>"+j+"</center></td>";
-            text += "</tr>";
+            table2 += "<tr>";
+            var j = b[i];
+            alert(j);
+            table2 += "<td><center>"+j+"</center></td>";
+            table2 += "</tr>";
         }
+
+        document.getElementById('answer1').innerHTML = table2;
     }
 
 }
