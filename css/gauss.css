@@ -14,3 +14,19 @@
     top: 10px;
     bottom: 30px;
 }
+#resolver-gauss{
+    display: inline;
+    float: left;
+
+}
+#mostrar{
+    display: inline;
+    float: right;
+}
+#answer{
+    text-align: center;
+}
+td, th{
+    border: 1px solid black;
+    width: 20%;
+}
