@@ -40,4 +40,19 @@ window.onload = function () {
 
     }
 
+    function showMartix(a, b){
+        var text = "";
+        for(var i = 0; i < a.length; i++){
+            for(var o = 0; o < a.length; o++){
+
+            }
+        }
+        for(var i = 0; i < b.length; i++){
+            text += "<tr>";
+            var j = respuestas[i];
+            text += "<td><center>"+j+"</center></td>";
+            text += "</tr>";
+        }
+    }
+
 }
