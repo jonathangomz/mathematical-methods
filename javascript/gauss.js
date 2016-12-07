@@ -16,6 +16,7 @@ window.onload = function () {
                     b[k] = b[k] - ((a[k][i]/a[i][i])*b[i]);
                     for(var j = i+1; j < a.length; j++){
                         a[k][j] = a[k][j] - ((a[k][i]/a[i][i])*a[i][j]);
+                        addHTML();
                     }
                     a[k][i] = 0;
                 }
@@ -37,6 +38,7 @@ window.onload = function () {
 
         }
         document.getElementById('answer').innerHTML = text;
+        text = "";
 
     }
 
