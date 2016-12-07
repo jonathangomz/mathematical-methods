@@ -44,3 +44,6 @@ tr, td, th{
 #answer{
     margin: 0px 30% 10px 30%;
 }
+.modal-content{
+    height: 300%;
+}
