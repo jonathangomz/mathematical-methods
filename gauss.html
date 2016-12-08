@@ -53,9 +53,22 @@
                     <br>
                     x<sup>3</sup> - 7x<sup>2</sup> - 4x = 97
                 </p><br>
-                 <button id="resolver-gauss" type="button" class="btn btn-success">Resolver</button>
+                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <h5 style="margin-left:10px;">The steps:</h5>
+                            <hr>
+                            <div id="show">
+                                <table id="answer1" width="70%"></table>
+                            </div>
+                        </div>
+                  </div>
+                </div>
+
             </center></strong><br><br>
-            <div id="answer"></div>
+            <button id="mostrar" type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-lg">Mostrar paso a paso</button>
+            <button id="resolver-gauss" type="button" class="btn btn-success">Resolver</button><br><br>
+            <div style="text-align: center"><p id="answer" style="text-align: center"></p></div>
         </div>
     </body>
 </html>

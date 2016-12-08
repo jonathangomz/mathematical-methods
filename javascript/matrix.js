@@ -1,11 +1,12 @@
 window.onload = function () {
 
-    var A = [ [ 3, 5, 11 ], [ 3, 10, 6 ], [ 7, 81, 19 ] ];
-	var B = [ [ 1, 9, 12 ], [ 42, 5, 6 ], [ 2, 8, 31 ] ];
+
     var C = [];
 
     document.getElementById('boton').onclick = function () {
 
+        var A = [ [ document.getElementById("1-0-0").value, document.getElementById("1-0-1").value, document.getElementById("1-0-2").value ], [ document.getElementById("1-1-0").value, document.getElementById("1-1-1").value, document.getElementById("1-1-2").value ], [ document.getElementById("1-2-0").value, document.getElementById("1-2-1").value, document.getElementById("1-2-2").value ] ];
+	    var B = [ [ document.getElementById("2-0-0").value, document.getElementById("2-0-1").value, document.getElementById("2-0-2").value ], [ document.getElementById("2-1-0").value, document.getElementById("2-1-1").value, document.getElementById("2-1-2").value ], [ document.getElementById("2-2-0").value, document.getElementById("2-2-1").value, document.getElementById("2-2-2").value ] ];
         multi(A, B);
 
         addHTML(C);
@@ -46,6 +47,7 @@ window.onload = function () {
             text += "</tr>";
         }
         document.getElementById('answer1').innerHTML = text;
+        document.getElementById('res').style.display = 'block';
     }
 
 }

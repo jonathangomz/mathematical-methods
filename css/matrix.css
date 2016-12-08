@@ -36,8 +36,15 @@ tr, td, th{
     right: 50%;
 }
 #boton{
-    margin: -45px 20% -60px 20%;
+    position: absolute;
+    top: 150px;
+}
+#btn-input{
+    margin: -45px -20% -60px 5%;
 }
 #answer{
     margin: 0px 30% 10px 30%;
+}
+.modal-content{
+    height: 300%;
 }
