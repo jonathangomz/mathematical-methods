@@ -165,6 +165,7 @@ function posFijo(text){
 			}
 		}
         else if(y == ')'){
+
 			if(pila.size() > 0){
 				var l = pila.pop();
                 posFijo += l;
