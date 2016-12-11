@@ -219,6 +219,7 @@ function checkText(x){
 function Stack() {
     var elements = [];
 
+
     this.add = add;
     this.pop = pop;
     this.getTopElement = getTopElement;
