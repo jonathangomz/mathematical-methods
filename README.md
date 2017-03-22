@@ -4,4 +4,4 @@ Made for the school
 Author: Jonathan Gómez
 Proyect's name: Some methods and more stuff
 
-Note: Im a fucking programming lml 8)
+Note: Im a fucking programmer lml 8)
