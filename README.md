@@ -4,6 +4,6 @@ Made for the school
 Author: Jonathan Gómez
 Proyect's name: Some methods and more stuff
 
-Note: Im a fucking programming lml 8)
+Note: Im a programmer lml 8) or at least i try
 
--- Tiene un friego de errores que se deben de corregir aun --
+-- Tiene muchos errores que se deben de corregir aún --

@@ -1,0 +1,443 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"arr",
+				"arrText"
+			],
+			[
+				"ar",
+				"arrText"
+			],
+			[
+				"carac",
+				"caracter1"
+			],
+			[
+				"t",
+				"td"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"num",
+				"numTotal"
+			],
+			[
+				"ca",
+				"caracter"
+			],
+			[
+				"nu",
+				"numero"
+			],
+			[
+				"ta",
+				"tag"
+			],
+			[
+				"tag",
+				"tag1"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"table_",
+				"table_options"
+			],
+			[
+				"ce",
+				"cellspacing\tAttr"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"aling",
+				"align-self"
+			],
+			[
+				"s",
+				"script\tTag"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"var",
+				"var"
+			],
+			[
+				"onC",
+				"onclick\tAttr"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"bl",
+				"inline-block"
+			],
+			[
+				"ba",
+				"background-clip"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"con",
+				"confirm"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"bo",
+				"border-top"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"color",
+				"background-color"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"font-fa",
+				"font-family"
+			],
+			[
+				"ti",
+				"title\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "set jaca",
+		"selected_items":
+		[
+			[
+				"set jaca",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set php",
+				"Set Syntax: PHP"
+			],
+			[
+				"im",
+				"Snippet: html"
+			],
+			[
+				"Set H",
+				"Set Syntax: HTML"
+			],
+			[
+				"",
+				"Project: Save As"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 199.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/private/var/folders/sr/yr2q7pp14xb_bc44v3vlnrwr0000gn/T/TemporaryItems/1-stylesheet.css",
+		"/Users/Jonathan/Desktop/Suseth/stylesheet.css",
+		"/Users/Jonathan/Desktop/Suseth/bootstrap/css/bootstrap.css",
+		"/Users/Jonathan/Downloads/carpeta sin título/index.html",
+		"/Applications/MAMP/htdocs/HTML/untitled.js",
+		"/Applications/MAMP/htdocs/HTML/index.html",
+		"/Applications/MAMP/htdocs/HTML/index.php",
+		"/Users/Jonathan/Desktop/Suseth/javascript.js",
+		"/Users/Jonathan/Desktop/Suseth/#1.html",
+		"/Users/Jonathan/Desktop/Jonathan/Programacion/HTML/untitled.jsp",
+		"/Users/Jonathan/Desktop/Suseth/preguntaFinal.html",
+		"/Applications/MAMP/htdocs/ejemplo/login.html",
+		"/Users/Jonathan/Desktop/portafolio.html",
+		"/Users/Jonathan/Desktop/Suseth/#2.html",
+		"/Users/Jonathan/Desktop/Suseth/Para Suseth.html",
+		"/Applications/MAMP/htdocs/ejemplo/config.php",
+		"/Applications/MAMP/htdocs/ejemplo/login.php",
+		"/Applications/MAMP/htdocs/ejemplo/index.php",
+		"/Applications/MAMP/htdocs/ejemplo/log_out.php",
+		"/Users/Jonathan/Desktop/Suseth/galery.html",
+		"/Users/Jonathan/Desktop/Suseth/pregunta4.html",
+		"/Users/Jonathan/Desktop/Suseth/propuestaDuda.html",
+		"/Users/Jonathan/Desktop/Suseth/pregunta3.html",
+		"/Users/Jonathan/Desktop/Suseth/pregunta2.html",
+		"/Users/Jonathan/Desktop/Suseth/pregunta1.html",
+		"/Users/Jonathan/Desktop/testCheckbox.html",
+		"/Users/Jonathan/Google Drive/#1.html",
+		"/Users/Jonathan/Google Drive/Para Suseth.html",
+		"/Users/Jonathan/Desktop/stylesheet.css",
+		"/Users/Jonathan/Desktop/#1.html",
+		"/Users/Jonathan/Desktop/Para Suseth.html",
+		"/Users/Jonathan/Desktop/hola mundo.html",
+		"/Users/Jonathan/Desktop/mistyle.css",
+		"/Users/Jonathan/test_portafolio_presentacion.html",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/zerif-lite/inc/hooks.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/zerif-lite/sections/our_team.php",
+		"/Users/Jonathan/Desktop/index.html",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/zerif-lite/content.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-config-sample.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"case",
+			"':\n",
+			"case",
+			"<td>",
+			"i",
+			"}\n",
+			"length",
+			"tag1",
+			">\n",
+			"\t<",
+			"td",
+			"||",
+			"'",
+			"')'",
+			"\"",
+			"'",
+			"\"",
+			"value",
+			"div",
+			"td",
+			"meta",
+			"POST",
+			"REQUEST",
+			"db",
+			"imgVertical",
+			"id",
+			"center",
+			"<HTML>\n<title></title>\n<body>\n<style=\"text-align:\"center\"\">Lugar y Fecha de nacimiento: Naranjos, Ver. el 15 de enero de 1997 <br>Domicilio: Dormitorio 3, Universidad de Montemorelos, N.L. <br>Teléfono: 937-141-6701 <br>Correo electrónico: jonicgp97@gmail.com  <br><strong>Información académica</strong>: <br>Preescolar: Valentín Gómez Farías, Veracruz, Veracruz. <br>Primaria: Valentín Gómez Farías hasta tercero, terminé en Francisco Javier Clavijero, Tuxpan, Veracruz. Secundaria: Francisco Javier Clavijero. <br>Bachiller: Primer año de bachiller en el Colegio Euro Hispanoamericano, Xalapa, Veracruz. Terminé en el colegio Profesor Ignacio Carrillo Franco, Montemorelos, N.L. <br>Universidad: Ingeniería en Sistemas en la Universidad de Montemorelos, Montemorelos, N.L. <br><strong> Tutor: </strong><br>Padres: Pastor Osiel Gómez y la psicóloga María Elena. <br>Domicilio: Col. TABSCOOB, Cárdenas, Tabasco.\n</style=\"text-align:\"center\"\"></body>\n</HTML>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "matrix.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/MAMP/htdocs/ejemplo/config.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
