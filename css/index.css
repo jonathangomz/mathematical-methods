@@ -1,26 +1,34 @@
-table{
+table {
     position: center;
 }
-.div{
-	margin: 40px 10px 10px 10px;
+
+.div {
+    margin: 10px 50px 10px 50px;
 }
-#proposicion1{
-position: center;
-margin-top: 20px;
-margin-right: 60px;
-margin-left: 60px;
+
+#proposicion1 {
+    position: center;
+    margin-top: 0px;
+    margin-right: 60px;
+    margin-left: 60px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-color: rgb(56, 128, 43)
 }
-#table_options{
-	float: right;
-	display: none;
+
+#table_options {
+    float: right;
+    display: none;
 }
-#table_proposicion{
-	float: left;
+
+#table_proposicion {
+    float: left;
 }
-.definicion{
-    margin:90px 50px 20px 50px;
-}
-#presentacion{
-    width: 80%;
-    margin: 5px 10% 5px 10%;
+
+#presentacion {
+    position: center;
+    margin: 100px 60px 0px 60px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-color: rgb(56, 128, 43)
 }
